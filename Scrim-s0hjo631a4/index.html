@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <h1>SCOREBOARD</h1>
+    </head>
+    <body>
+        <div class="container">
+            <div class="home">
+                <h3>HOME</h3>
+                <h4 id="home-score">0</h4>
+                <div class="button">
+                    <button onclick="addHome()">+</button>
+                </div> 
+            </div>
+            <div class="reset">
+                <button onclick="reset()">RESET</button>
+            </div>
+            <div class="guest">
+                <h3>GUEST</h3>
+                <h4 id="guest-score">0</h4>
+                <div class="button">
+                    <button onclick="addGuest()">+</button>
+                </div> 
+            </div>
+
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
